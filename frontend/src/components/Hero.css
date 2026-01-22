@@ -1,0 +1,31 @@
+.hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+.hero-title {
+  font-size: 32px;
+  margin: 0;
+}
+.hero-sub {
+  color: #6b7280;
+  max-width: 600px;
+  margin: 12px auto 24px;
+}
+.segmented {
+  display: inline-flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.seg-btn {
+  padding: 10px 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  color: #6b7280;
+}
+.seg-btn.active {
+  background: #1c2a43;
+  color: white;
+}
